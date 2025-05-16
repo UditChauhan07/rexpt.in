@@ -39,7 +39,7 @@
 	
 	body {
 		--token-6925f225-ceb4-4d13-9216-4516a7c36ede: rgb(252, 252, 252);
-		--token-012199f6-65f7-4452-8f1a-7122163a1e72: rgb(48, 103, 255);
+		--token-012199f6-65f7-4452-8f1a-7122163a1e72: #6524EB;
 		--token-e8bc06ce-6142-4eb1-adc2-18d226ec531e: rgb(5, 5, 5);
 		--token-d78209e8-6a68-4313-bca1-c4031ffd377b: rgb(141, 141, 141);
 		--token-13aaeecf-ff0e-4854-94f9-f548f164c106: rgb(26, 26, 26)
@@ -1136,7 +1136,8 @@
 	
 	li.framer-text {
 		counter-increment: list-item;
-		list-style: none
+		list-style: none;
+		line-height: 0;
 	}
 	
 	ol.framer-text>li.framer-text:before {
@@ -2683,7 +2684,7 @@
 		align-content: center;
 		align-items: center;
 		align-self: stretch;
-		background: radial-gradient(50% 50% at 50% 50%, #4f7eff 0%, var(--token-012199f6-65f7-4452-8f1a-7122163a1e72, rgb(48, 103, 255)) 100%);
+		background: radial-gradient(50% 50% at 50% 50%, #6527ec 0%, var(--token-012199f6-65f7-4452-8f1a-7122163a1e72, rgb(48, 103, 255)) 100%);
 		border-radius: 74px;
 		box-shadow: 0 .6021873017743928px .6021873017743928px -1.25px #0000009c, 0 2.288533303243457px 2.288533303243457px -2.5px #0000008a, 0 10px 10px -3.75px #00000036;
 		display: flex;
@@ -4828,7 +4829,7 @@
 		--border-top-width: 1.8422174453735352px;
 		align-content: center;
 		align-items: center;
-		background: radial-gradient(50% 50% at 50% 50%, #4f7eff 0%, var(--token-012199f6-65f7-4452-8f1a-7122163a1e72, rgb(48, 103, 255)) 100%);
+		background: radial-gradient(50% 50% at 50% 50%, #6527ec 0%, var(--token-012199f6-65f7-4452-8f1a-7122163a1e72, rgb(48, 103, 255)) 100%);
 		border-radius: 74px;
 		box-shadow: 0 .6021873017743928px .6021873017743928px -1.25px #0000009c, 0 2.288533303243457px 2.288533303243457px -2.5px #0000008a, 0 10px 10px -3.75px #00000036;
 		display: flex;
@@ -5598,7 +5599,7 @@
 		--border-top-width: 1.8422174453735352px;
 		align-content: center;
 		align-items: center;
-		background: radial-gradient(50% 50% at 50% 50%, #2552cf 0%, var(--token-012199f6-65f7-4452-8f1a-7122163a1e72, rgb(48, 103, 255)) 100%);
+		background: radial-gradient(50% 50% at 50% 50%, #6524eb 0%, var(--token-012199f6-65f7-4452-8f1a-7122163a1e72, rgb(48, 103, 255)) 100%);
 		border-radius: 74px;
 		box-shadow: 0 .6021873017743928px .6021873017743928px -1.25px #0000009c, 0 2.288533303243457px 2.288533303243457px -2.5px #0000008a, 0 10px 10px -3.75px #00000036;
 		display: flex;
@@ -18552,7 +18553,7 @@
 	
 	.framer-gSJxP .framer-nmrxvb {
 		flex: none;
-		height: 25px;
+		/* height: 25px; */
 		position: relative;
 		text-decoration: none;
 		width: 26px
